@@ -104,14 +104,14 @@ cook_temp_2020 <- mean(cook_2020$HourlyDryBulbTemperature, na.rm = TRUE)
 summary(cook_temp_2020)
 
 # MEAN DRY BULB TEMPERATURE: RICHLAND COUNTY, SC, USA
-richland_temp_2017 <- mean(is.numeric(richland_2017$HourlyDryBulbTemperature), na.rm = TRUE)
+richland_temp_2017 <- mean(as.numeric(richland_2017$HourlyDryBulbTemperature), na.rm = TRUE)
 summary(richland_temp_2017)
 
-richland_temp_2018 <- mean(richland_2018$HourlyRelativeHumidity, na.rm = TRUE)
+richland_temp_2018 <- mean(as.numeric(richland_2018$HourlyDryBulbTemperature), na.rm = TRUE)
 summary(richland_temp_2018)
 
-richland_temp_2019 <- mean(richland_2019$HourlyRelativeHumidity, na.rm = TRUE)
+richland_temp_2019 <- mean(as.numeric(richland_2019$HourlyDryBulbTemperature), na.rm = TRUE)
 summary(richland_temp_2019)
 
-richland_temp_2020 <- mean(richland_2020$HourlyRelativeHumidity, na.rm = TRUE)
+richland_temp_2020 <- mean(as.numeric(richland_2020$HourlyDryBulbTemperature), na.rm = TRUE)
 summary(richland_temp_2020)
