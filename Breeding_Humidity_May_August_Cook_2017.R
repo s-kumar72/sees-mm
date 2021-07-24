@@ -74,7 +74,7 @@ all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_august, aes(x = "
 all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_sept, aes(x = "09.", y = HourlyRelativeHumidity, fill = "09"))
 all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_oct, aes(x = "10", y = HourlyRelativeHumidity, fill = "10"))
 all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_nov, aes(x = "11", y = HourlyRelativeHumidity, fill = "11"))
-all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_sept, aes(x = "12", y = HourlyRelativeHumidity, fill = "12"))
+all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_dec, aes(x = "12", y = HourlyRelativeHumidity, fill = "12"))
 all_cook_2017 <- all_cook_2017 + xlab("Month") + ylab("Relative Humidity") + labs(title = "Monthly Relative Humidity, Cook County 2017")
 
 all_cook_2017
