@@ -51,7 +51,7 @@ cook_2017_oct <- cook_2017[9688:10839,]
 cook_2017_nov <- cook_2017[10840:11926,]
 cook_2017_dec <- cook_2017[11927:13013,]
 
-# LA 2017 HUMIDITY (BREEDING)
+# COOK 2017 HUMIDITY (BREEDING)
 
 breeding_cook_2017 <- ggplot() + geom_boxplot(data = cook_2017_may, aes(x = "May", y = HourlyRelativeHumidity, fill = "May")) 
 breeding_cook_2017 <- breeding_cook_2017 + geom_boxplot(data = cook_2017_june, aes(x = "June", y = HourlyRelativeHumidity, fill = "June"))
@@ -61,7 +61,7 @@ breeding_cook_2017 <- breeding_cook_2017 + xlab("Month") + ylab("Relative Humidi
 
 breeding_cook_2017
 
-# LA 2017 HUMIDITY (ALL)
+# COOK 2017 HUMIDITY (ALL)
 
 all_cook_2017 <- ggplot() + geom_boxplot(data = cook_2017_jan, aes(x = "01", y = HourlyRelativeHumidity, fill = "01")) 
 all_cook_2017 <- all_cook_2017 + geom_boxplot(data = cook_2017_feb, aes(x = "02", y = HourlyRelativeHumidity, fill = "02"))
