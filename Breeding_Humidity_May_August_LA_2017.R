@@ -79,37 +79,3 @@ all_la_2017 <- all_la_2017 + xlab("Month") + ylab("Relative Humidity") + labs(ti
 
 all_la_2017
 
-# LA 2017 TEMP (BREEDING)
-
-breeding_la_2017_1 <- ggplot() + geom_boxplot(data = la_2017_may, aes(x = "May", y = HourlyDryBulbTemperature, fill = "May")) 
-breeding_la_2017_1 <-breeding_la_2017_1 + geom_boxplot(data = la_2017_june, aes(x = "June", y = HourlyDryBulbTemperature, fill = "June"))
-breeding_la_2017_1 <- breeding_la_2017_1 + geom_boxplot(data = la_2017_july, aes(x = "July", y = HourlyDryBulbTemperature, fill = "July"))
-breeding_la_2017_1 <- breeding_la_2017_1 + geom_boxplot(data = la_2017_august, aes(x = "August", y = HourlyDryBulbTemperature, fill = "August"))
-breeding_la_2017_1 <- breeding_la_2017_1 + xlab("Month") + ylab("Dry Bulb Temperature") + labs(title = "Dry Bulb Temperature During Culex Breeding Season", subtitle = "LA County, 2017")
-
-breeding_la_2017_1
-
-# LA 2017 TEMP (ALL)
-
-all_la_2017_1 <- ggplot() + geom_boxplot(data = la_2017_jan, aes(x = "01", y = HourlyDryBulbTemperature, fill = "01")) 
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_feb, aes(x = "02", y = HourlyDryBulbTemperature, fill = "02"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_march, aes(x = "03", y = HourlyDryBulbTemperature, fill = "03"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_april, aes(x = "04", y = HourlyDryBulbTemperature, fill = "04"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_may, aes(x = "05", y = HourlyDryBulbTemperature, fill = "05"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_june, aes(x = "06", y = HourlyDryBulbTemperature, fill = "06"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_july, aes(x = "07", y = HourlyDryBulbTemperature, fill = "07"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_august, aes(x = "08", y = HourlyDryBulbTemperature, fill = "08"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_sept, aes(x = "09", y = HourlyDryBulbTemperature, fill = "09"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_oct, aes(x = "10", y = HourlyDryBulbTemperature, fill = "10"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_nov, aes(x = "11", y = HourlyDryBulbTemperature, fill = "11"))
-all_la_2017_1 <- all_la_2017_1 + geom_boxplot(data = la_2017_sept, aes(x = "12", y = HourlyDryBulbTemperature, fill = "12"))
-all_la_2017_1 <- all_la_2017_1 + xlab("Month") + ylab("Dry Bulb Temp.") + labs(title = "Monthly Dry Bulb Temp., LA County 2017")
-
-all_la_2017_1
-
-
-
-
-
-
-
